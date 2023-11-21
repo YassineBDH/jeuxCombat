@@ -1,39 +1,107 @@
 body{
     background-image:url(../images/décors.gif);
-    width: 100vw;
-    height: 100vh;
+    width: 90vw;
+    height: 90vh;
     background-position: center;
     background-size: cover;
+    
 
 }
 .plc2{
     width: 100px;
     height: 150px;
     position: relative; 
-    top: -9%;   
+    top: -13.5%;  
+    margin-bottom: 10px; 
+    padding: 0;
 }
 .plc{
     width: 100px;
     height: 150px;
     position: relative; 
-    top: 7%;   
-    left: 91%;
+    top: 5%;   
+    left: 98.5%;
+    padding: 0;
 }
 .vvs{
     position: fixed;
-    left: 32%;
+    left: 25%;
     width: 600px;
     height: 600px;
 }
-.perso{
+.perso1,.perso2,.perso3,.perso4{
     width: 130px;
     height: 200px;
-    background-color: rgba(255, 86, 80, 0.37);
+    background-color: rgba(255, 0, 0, 0.200);
     border-radius: 30%
-    }
-    .perso2{
+}
+.perso5,.perso6,.perso7,.perso8{
         width: 130px;
         height: 200px;
-        background-color: rgba(106, 80, 255, 0.37);
+        background-color: rgba(0, 0, 255, 0.200);
         border-radius: 30%
+}
+
+    .btn{
+        position: relative;
+        left: 50%;
     }
+
+.perso1:hover{
+        transform: scale(2.10);
+        position: relative;
+        right: 300px;   
+        top: 200px;
+ }
+ .perso2:hover{
+    transform: scale(2.10);
+    position: relative;
+    right: 300px;   
+ }
+ .perso3:hover{
+    transform: scale(2.10);
+    position: relative;
+    right: 300px;   
+    top: -200px;
+}
+.perso4:hover{
+transform: scale(2.10);
+position: relative;
+right: 300px;   
+top: -400px;
+}
+.perso5:hover{
+    transform: scale(2.10);
+    position: relative;
+    left: 300px;   
+    top: 200px;
+}
+.perso6:hover{
+transform: scale(2.10);
+position: relative;
+left: 300px;   
+}
+.perso7:hover{
+transform: scale(2.10);
+position: relative;
+left: 300px;   
+top: -200px;
+}
+.perso8:hover{
+transform: scale(2.10);
+position: relative;
+left: 300px;   
+top: -400px;
+}
+.j1{
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    color: blue;
+}
+.j2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    color: red;
+}
